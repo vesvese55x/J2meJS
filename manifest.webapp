@@ -1,66 +1,80 @@
 {
-  "name": "J2ME",
-  "description": "a J2ME-compatible virtual machine written in JavaScript",
-  "launch_path": "/index.html",
-  "origin": "app://pluotsorbet.mozilla.org",
-  "version": "1659142869",
-  "icons": {
-    "128": "/img/icon-128.png",
-    "512": "/img/icon-512.png"
-  },
-  "developer": {
-    "name": "Mozilla Apps",
-    "url": "http://mozilla.org"
-  },
-  "default_locale": "en",
-  "orientation": ["portrait", "landscape"],
-  "permissions": {
-    "geolocation": {
-       "description": "Required by location API."
+  "lang": "zh-CN",
+  "name": "J2meLoader",
+  "short_name": "J2meLoader",
+  "id": "/j2me/",
+  "scope": "/j2me/",
+  "start_url": "/j2me/index.html",
+  "version": "0.0.1",
+  "categories": ["Game"],
+  "description": "An J2me emulator for KaiOS 3.X",
+  "icons": [
+    {
+      "src": "https://kaios.zixing.fun/j2me/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     },
-    "tcp-socket": {
-      "description": "Required to connect to internet"
-    },
-    "contacts": {
-      "description": "Required to manage contacts",
-      "access": "readonly"
-    },
-    "mobilenetwork": {
-      "description": "Required to verify your phone number"
-    },
-    "browser": {
-      "description": "Required to improve performance"
-    },
-    "audio-capture": {
-       "description": "Required to capture audio via getUserMedia"
-    },
-    "video-capture": {
-       "description": "Required to take pictures"
-    },
-    "desktop-notification": {
-      "description": "Required to display notifications"
-    },
-    "systemXHR": {
-       "description": "Required to download MIDlets"
-    },
-    "storage": {
-       "description": "Required to store files without limitations"
-    },
-    "alarms": {
-      "description": "Required to perform tasks while the app isn't running"
+    {
+      "src": "https://kaios.zixing.fun/j2me/img/icon-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
     }
-  },
-  "messages": [
-    { "alarm": "/index.html" }
   ],
-  "activities": {
-    "share": {
-      "href": "/index.html",
-      "disposition": "window",
-      "filters": {
-        "type": ["image/*", "video/*", "audio/*"]
-      }
-    }
+  "theme_color": "#496c6b",
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "origin": "zixing.app",
+  "developer": {
+    "name": "Zixing",
+    "url": "https://kaios.zixing.fun"
   },
-  "type": "web"
+  "b2g_features": {
+    "core": true,
+    "subtitle": "An J2me emulator for KaiOS 3.X",
+    "version": "0.0.1",
+    "permissions": {
+      "geolocation": {
+        "description": "Required by location API."
+      },
+      "tcp-socket": {
+        "description": "Required to connect to internet"
+      },
+      "contacts": {
+        "description": "Required to manage contacts",
+        "access": "readonly"
+      },
+      "mobilenetwork": {
+        "description": "Required to verify your phone number"
+      },
+      "browser": {
+        "description": "Required to improve performance"
+      },
+      "audio-capture": {
+        "description": "Required to capture audio via getUserMedia"
+      },
+      "video-capture": {
+        "description": "Required to take pictures"
+      },
+      "desktop-notification": {
+        "description": "Required to display notifications"
+      },
+      "systemXHR": {
+        "description": "Required to download MIDlets"
+      },
+      "storage": {
+        "description": "Required to store files without limitations"
+      },
+      "alarms": {
+        "description": "Required to perform tasks while the app isn't running"
+      }
+    },
+    "messages": [
+      { "alarm": "/j2me/index.html" }
+    ],
+    "chrome": { "navigation": false },
+    "cursor": false,
+    "fullscreen": true,
+    "ime_default_softkey_bar": true,
+    "focus_color": "#6054EF"
+  }
 }
