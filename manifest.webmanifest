@@ -10,12 +10,12 @@
   "description": "An J2me emulator for KaiOS 3.X",
   "icons": [
     {
-      "src": "https://kaios.zixing.fun/j2me/img/icon-512.png",
+      "src": "http://kaios.zixing.fun/j2me/img/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "https://kaios.zixing.fun/j2me/img/icon-128.png",
+      "src": "http://kaios.zixing.fun/j2me/img/icon-128.png",
       "type": "image/png",
       "sizes": "128x128"
     }
