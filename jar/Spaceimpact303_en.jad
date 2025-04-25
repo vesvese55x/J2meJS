@@ -1,0 +1,8 @@
+MIDlet-Vendor: Nokia goto www.nokia.com/games
+MicroEdition-Profile: MIDP-1.0
+MIDlet-Jar-URL: Spaceimpact303_en.jar
+MIDlet-Name: Space Impact III
+MIDlet-Version: 1.2
+MIDlet-Jar-Size: 87457
+MIDlet-1: Space Impact III, /res/icon44x44.png, com.kuju.j2me.boomer.BoomerMidlet
+ 
